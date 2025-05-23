@@ -1,10 +1,11 @@
 1. Să se realizeze un site WEB pentru o clinică medicală. Acesta trebuie să includă minim:
-    O pagină cu informații generale despre clinică (“Home”)
-    O pagină cu specializările și serviciile medicale oferite pentru fiecare specializare (“Servicii
-   Medicale”)
-    O pagină ce prezintă echipa medicală (“Medici”)
-    O pagină ce include o galerie de fotografii (“Galerie”)
-    O pagină de contact (“Contact”)
+<ol>
+   <li>O pagină cu informații generale despre clinică (“Home”)</li>
+   <li>O pagină cu specializările și serviciile medicale oferite pentru fiecare specializare (“Servicii Medicale”)</li>
+   <li>O pagină ce prezintă echipa medicală (“Medici”)</li>
+   <li>O pagină ce include o galerie de fotografii (“Galerie”)</li>
+   <li>O pagină de contact (“Contact”)</li>
+</ol>
    Site-ul va trebui să ofere posibilitatea de navigare între paginile acestuia. Paginile site-ului trebuie să fie
    valide HTML/CSS conform standardelor W3C.
    a) Să se realizeze o versiune a site-ului ce utilizează exclusiv limbajul HTML (fară elemente de CSS)
