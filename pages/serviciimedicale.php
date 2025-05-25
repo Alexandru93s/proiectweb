@@ -28,7 +28,7 @@ require_once "../inc/connect.php";
     <h2>Servicii</h2>
     <p>
         Serviciile de specialitate sunt asigurate de un colectiv de peste 25
-        medici specialiști sau primari, cadre universitare și doctori în științe
+        medici specialisti sau primari, cadre universitare si doctori în stiinte
         medicale.<br /><br />
         <strong>Oferta noastră de servicii cuprinde:</strong>
     </p>
@@ -43,7 +43,7 @@ if (mysqli_num_rows($result) > 0) {
     }
     mysqli_free_result($result);
 } else {
-    echo "<li>Nu există specializări înregistrate.</li>";
+    echo "<li>Nu exista specializari inregistrate.</li>";
 }
 
 mysqli_close($id_conexiune);

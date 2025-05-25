@@ -1,5 +1,4 @@
 <?php
-  //Stabilim conexiunea cu serverul MySQL
   $id_conexiune = mysqli_connect(DB_HOST,DB_USER, DB_PASS);
 
   if (!$id_conexiune) {

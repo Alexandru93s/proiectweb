@@ -34,7 +34,7 @@ function doLogout() {
     session_destroy();
 }
 
-// Funcții specializări
+// Functii specializari
 function listSpecializari() {
     global $id_conexiune;
 
@@ -72,7 +72,7 @@ function addSpecializare($nume) {
     return mysqli_query($id_conexiune, "INSERT INTO specializari (nume) VALUES ('$nume')");
 }
 
-// Funcții medici
+// Functii medici
 function listMedici() {
     global $id_conexiune;
 
@@ -88,12 +88,12 @@ function listMedici() {
                 <td>".htmlspecialchars($row['nume'])."</td>
                 <td>".htmlspecialchars($row['descriere'])."</td>
                 <td>".($row['cas'] ? 'DA' : 'NU')."</td>
-                <td><a href='index.php?comanda=delete_medic&id=".$row['id']."' onclick='return confirm(\"Ștergi acest medic?\")'>Șterge</a></td>
+                <td><a href='index.php?comanda=delete_medic&id=".$row['id']."' onclick='return confirm(\"Stergi acest medic?\")'>Șterge</a></td>
               </tr>";
     }
     echo "</table>";
 
-    // Formular adăugare
+// Formular adăugare
     echo "<h3>Adaugă medic</h3>
           <form method='post' action='index.php'>
               <input type='hidden' name='comanda' value='add_medic'>
@@ -130,7 +130,7 @@ if (!empty($comanda)) {
             $username = $_POST['username'] ?? '';
             $password = $_POST['password'] ?? '';
             if (!doLogin($username, $password)) {
-                $error = "Login eșuat!";
+                $error = "Login esuat!";
             }
             break;
         case 'logout':
@@ -165,13 +165,6 @@ if (!empty($comanda)) {
 <head>
     <meta charset="UTF-8">
     <title>Admin Clinica</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        table { border-collapse: collapse; margin: 20px 0; }
-        th, td { padding: 8px; border: 1px solid #ccc; }
-        input, button { margin: 5px; }
-        .error { color: red; }
-    </style>
 </head>
 <body>
 <?php if (!isLogged()): ?>

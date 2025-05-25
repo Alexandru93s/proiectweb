@@ -24,7 +24,7 @@ require_once "../inc/connect.php";
             </ul>
         </nav>
 </header>
-    <h2 style="text-align:center;">Lista medici cu specializările lor</h2>
+    <h2 style="text-align:center;">Lista medici cu specializarile lor</h2>
 
     <table>
         <thead>
@@ -48,7 +48,7 @@ require_once "../inc/connect.php";
                 echo "</tr>";
             }
         } else {
-            echo "<tr><td colspan='2'>Nu există medici înregistrați.</td></tr>";
+            echo "<tr><td colspan='2'>Nu exista medici inregistrati.</td></tr>";
         }
 
         mysqli_free_result($result);
