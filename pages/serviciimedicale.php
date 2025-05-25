@@ -17,7 +17,7 @@ require_once "../inc/connect.php";
             <h1><a href="../index.html">Clinica medicala</a></h1>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../pages/serviciimedicale.html">Servicii Medicale</a></li>
+                <li><a href="../pages/serviciimedicale.php">Servicii Medicale</a></li>
                 <li><a href="../pages/medici.html">Medici</a></li>
                 <li><a href="../pages/galerie.html">Galerie</a></li>
                 <li><a href="../pages/contact.html">Contact</a></li>
