@@ -9,6 +9,7 @@ require_once "../inc/connect.php";
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../pagestyles/nav.css" />
+    <link rel="stylesheet" href="../pagestyles/servicii.css">
     <title>Servicii medicale</title>
 </head>
 <body>
@@ -18,7 +19,7 @@ require_once "../inc/connect.php";
             <ul>
                 <li><a href="../index.html">Home</a></li>
                 <li><a href="../pages/serviciimedicale.php">Servicii Medicale</a></li>
-                <li><a href="../pages/medici.html">Medici</a></li>
+                <li><a href="../pages/medici.php">Medici</a></li>
                 <li><a href="../pages/galerie.html">Galerie</a></li>
                 <li><a href="../pages/contact.html">Contact</a></li>
             </ul>

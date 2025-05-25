@@ -1,0 +1,26 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Content */
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 3rem 0 1.5rem;
+  position: relative;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 2rem 4rem;
+}
+
+p {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 1.5rem;
+}

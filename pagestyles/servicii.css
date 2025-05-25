@@ -1,0 +1,47 @@
+/* Basic Reset */
+body {
+  margin: 0;
+  padding: 0px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Simple Heading Style */
+h2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+/* Basic Paragraph Style */
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Simple List Styling */
+body > ul {
+  background-color: #e6f2ff;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid #b3d1ff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  margin-bottom: 8px;
+  padding-left: 5px;
+}
+
+/* Basic Strong Tag */
+strong {
+  color: #004080;
+}
+
+/* Simple Hover Effect */
+li:hover {
+  background-color: #cce0ff;
+}

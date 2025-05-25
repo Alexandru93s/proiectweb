@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+}
+th,
+td {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+th {
+  background-color: #3498db;
+  color: white;
+}
+header {
+  width: 100%;
+}
