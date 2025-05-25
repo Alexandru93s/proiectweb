@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE medic SYSTEM "medic.dtd">
+<medic>
+    <id>123</id>
+    <nume>Dr. Andrei Popescu</nume>
+    <specializare>Cardiologie</specializare>
+    <telefon>0723-456-789</telefon>
+    <email>andrei.popescu@clinica.ro</email>
+    <cas>true</cas>
+    
+    <programari>
+        <programare>
+            <data>2025-06-01</data>
+            <ora>10:00</ora>
+            <pacient>
+                <nume>Maria Ionescu</nume>
+                <cnp>2890512345678</cnp>
+                <telefon>0744-123-456</telefon>
+            </pacient>
+        </programare>
+    </programari>
+</medic>

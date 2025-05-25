@@ -1,0 +1,15 @@
+<!ELEMENT medic (id, nume, specializare, telefon, email, cas, programari)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT specializare (#PCDATA)>
+<!ELEMENT telefon (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT cas (#PCDATA)>
+
+<!ELEMENT programari (programare*)>
+<!ELEMENT programare (data, ora, pacient)>
+<!ELEMENT data (#PCDATA)>
+<!ELEMENT ora (#PCDATA)>
+
+<!ELEMENT pacient (nume, cnp, telefon)>
+<!ELEMENT cnp (#PCDATA)>
